@@ -31,7 +31,7 @@ const CarDetails = () => {
 
                 <div className=" d-flex align-items-center gap-5 mb-4 mt-3">
                   <h6 className="rent__price fw-bold fs-4">
-                    ${singleCarItem.price}.00 / Day
+                    {singleCarItem.price}00rs / Day
                   </h6>
 
                   <span className=" d-flex align-items-center gap-2">
@@ -107,17 +107,10 @@ const CarDetails = () => {
               </div>
             </Col>
 
-            <Col lg="7" className="mt-5">
+            <Col lg="13" className="mt-5">
               <div className="booking-info mt-5">
                 <h5 className="mb-4 fw-bold ">Booking Information</h5>
-                <BookingForm />
-              </div>
-            </Col>
-
-            <Col lg="5" className="mt-5">
-              <div className="payment__info mt-5">
-                <h5 className="mb-4 fw-bold ">Payment Information</h5>
-                <PaymentMethod />
+                <BookingForm singleCarItem={singleCarItem} />
               </div>
             </Col>
           </Row>

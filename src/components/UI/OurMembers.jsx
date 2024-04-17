@@ -2,49 +2,61 @@ import React from "react";
 import "../../styles/our-member.css";
 import { Col } from "reactstrap";
 import { Link } from "react-router-dom";
-import ava01 from "../../assets/all-images/ava-1.jpg";
-import ava02 from "../../assets/all-images/ava-2.jpg";
+import pragneshImg from "../../assets/all-images/Team-img/PragneshImg2.jpg";
+import yashImg from "../../assets/all-images/Team-img/yashImg.jpg";
+import harshImg from "../../assets/all-images/Team-img/harshImg.jpg";
+import manishImg from "../../assets/all-images/Team-img/manishImg.jpg";
 import ava03 from "../../assets/all-images/ava-3.jpg";
 
 const OUR__MEMBERS = [
   {
-    name: "Jhon Doe",
-    experience: "5 years of experience",
+    name: "Pragnesh",
+    experience: "2 years of experience",
     fbUrl: "#",
     instUrl: "#",
     twitUrl: "#",
     linkedinUrl: "#",
-    imgUrl: ava01,
+    imgUrl: pragneshImg,
   },
 
   {
-    name: "David Lisa",
-    experience: "5 years of experience",
+    name: "Yash",
+    experience: "2 years of experience",
     fbUrl: "#",
     instUrl: "#",
     twitUrl: "#",
     linkedinUrl: "#",
-    imgUrl: ava02,
+    imgUrl: yashImg,
   },
 
   {
-    name: "Hilton King",
-    experience: "5 years of experience",
+    name: "Harsh",
+    experience: "2 years of experience",
+    fbUrl: "#",
+    instUrl: "#",
+    twitUrl: "#",
+    linkedinUrl: "#",
+    imgUrl: harshImg,
+  },
+
+  {
+    name: "Manish",
+    experience: "2 years of experience",
+    fbUrl: "#",
+    instUrl: "#",
+    twitUrl: "#",
+    linkedinUrl: "#",
+    imgUrl: manishImg,
+  },
+
+  {
+    name: "Kathan",
+    experience: "2 years of experience",
     fbUrl: "#",
     instUrl: "#",
     twitUrl: "#",
     linkedinUrl: "#",
     imgUrl: ava03,
-  },
-
-  {
-    name: "Jhon Doe",
-    experience: "5 years of experience",
-    fbUrl: "#",
-    instUrl: "#",
-    twitUrl: "#",
-    linkedinUrl: "#",
-    imgUrl: ava01,
   },
 ];
 

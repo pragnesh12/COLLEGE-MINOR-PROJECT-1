@@ -3,11 +3,11 @@ import Slider from "react-slick";
 
 import "../../styles/testimonial.css";
 
-import ava01 from "../../assets/all-images/ava-1.jpg";
-import ava02 from "../../assets/all-images/ava-2.jpg";
-import ava03 from "../../assets/all-images/ava-3.jpg";
-import ava04 from "../../assets/all-images/ava-4.jpg";
+import ava01 from "../../assets/all-images/Team-img/PragneshImg2.jpg";
+import ava02 from "../../assets/all-images/Team-img/yashImg.jpg";
+import ava03 from "../../assets/all-images/Team-img/harshImg.jpg";
 
+import ava04 from "../../assets/all-images/Team-img/manishImg.jpg";
 const Testimonial = () => {
   const settings = {
     dots: true,
@@ -42,17 +42,18 @@ const Testimonial = () => {
     <Slider {...settings}>
       <div className="testimonial py-4 px-3">
         <p className="section__description">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus magni
-          explicabo molestias recusandae repudiandae, dolor, sapiente placeat
-          ab, animi eum minima nulla facere aliquam aut vitae quo pariatur
-          voluptate odit?
+          "Absolutely thrilled with my experience using reLive Rentals! From the
+          easy booking process to the seamless pickup, their service exceeded my
+          expectations. The car was in pristine condition, and the unlimited
+          mileage option gave me the freedom to explore without constraints.
+          Will definitely be using reLive Rentals for all my future travels!"
         </p>
 
         <div className="mt-3 d-flex align-items-center gap-4">
           <img src={ava01} alt="" className="w-25 h-25 rounded-2" />
 
           <div>
-            <h6 className="mb-0 mt-3">Jhon Doe</h6>
+            <h6 className="mb-0 mt-3">Aman Patel</h6>
             <p className="section__description">Customer</p>
           </div>
         </div>
@@ -60,17 +61,19 @@ const Testimonial = () => {
 
       <div className="testimonial py-4 px-3">
         <p className="section__description">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus magni
-          explicabo molestias recusandae repudiandae, dolor, sapiente placeat
-          ab, animi eum minima nulla facere aliquam aut vitae quo pariatur
-          voluptate odit?
+          "Highly recommend reLive Rentals for anyone in need of reliable
+          transportation. Their wide range of pickup locations made it
+          convenient for me to find a vehicle near my hotel, and the airport
+          transfer service was a lifesaver. The fast and easy booking process
+          ensured I could secure my rental with ease, and the friendly staff
+          made the entire experience pleasant from start to finish."
         </p>
 
         <div className="mt-3 d-flex align-items-center gap-4">
           <img src={ava02} alt="" className="w-25 h-25 rounded-2" />
 
           <div>
-            <h6 className="mb-0 mt-3">Jhon Doe</h6>
+            <h6 className="mb-0 mt-3">Rakesh Desai</h6>
             <p className="section__description">Customer</p>
           </div>
         </div>
@@ -78,17 +81,19 @@ const Testimonial = () => {
 
       <div className="testimonial py-4 px-3">
         <p className="section__description">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus magni
-          explicabo molestias recusandae repudiandae, dolor, sapiente placeat
-          ab, animi eum minima nulla facere aliquam aut vitae quo pariatur
-          voluptate odit?
+          "Five-star service from reLive Rentals! I used their airport transfer
+          service for my recent trip, and I couldn't be happier with the level
+          of professionalism and efficiency. The driver was punctual and
+          courteous, and the vehicle was clean and comfortable. Such a
+          stress-free way to start and end my journey. Will definitely be using
+          reLive Rentals again!"
         </p>
 
         <div className="mt-3 d-flex align-items-center gap-4">
           <img src={ava03} alt="" className="w-25 h-25 rounded-2" />
 
           <div>
-            <h6 className="mb-0 mt-3">Jhon Doe</h6>
+            <h6 className="mb-0 mt-3">Paresh Panchal</h6>
             <p className="section__description">Customer</p>
           </div>
         </div>
@@ -96,17 +101,20 @@ const Testimonial = () => {
 
       <div className="testimonial py-4 px-3">
         <p className="section__description">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus magni
-          explicabo molestias recusandae repudiandae, dolor, sapiente placeat
-          ab, animi eum minima nulla facere aliquam aut vitae quo pariatur
-          voluptate odit?
+          "reLive Rentals made exploring the city a breeze! Their comprehensive
+          whole city tour took me to all the must-see attractions, and the
+          knowledgeable guide provided fascinating insights into the local
+          culture and history. With unlimited miles included, I was able to
+          fully immerse myself in the experience without worrying about
+          distance. A truly memorable and seamless adventure thanks to reLive
+          Rentals!"
         </p>
 
         <div className="mt-3 d-flex align-items-center gap-4">
           <img src={ava04} alt="" className="w-25 h-25 rounded-2" />
 
           <div>
-            <h6 className="mb-0 mt-3">Jhon Doe</h6>
+            <h6 className="mb-0 mt-3">Aman Singh</h6>
             <p className="section__description">Customer</p>
           </div>
         </div>

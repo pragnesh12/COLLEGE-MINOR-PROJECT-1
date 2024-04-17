@@ -22,11 +22,12 @@ const Home = () => {
         <HeroSlider />
 
         <div className="hero__form">
-          <Container>
+          {/* <Container>
             <Row className="form__row">
               <Col lg="4" md="4">
                 <div className="find__cars-left">
-                  <h2>Find your best car here</h2>
+                  <h2>JOIN WITH US</h2>
+                  <p></p>
                 </div>
               </Col>
 
@@ -34,7 +35,7 @@ const Home = () => {
                 <FindCarForm />
               </Col>
             </Row>
-          </Container>
+          </Container> */}
         </div>
       </section>
       {/* =========== about section ================ */}
